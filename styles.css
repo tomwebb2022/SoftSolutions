@@ -1,50 +1,92 @@
-
-* {
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: white;
+    color: black;
 }
-
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #dfffc7, #a3d8ff);
 }
 
-.logo {
+.logo-container {
     display: flex;
     align-items: center;
 }
 
-.logo img {
-    height: 50px;
-    margin-right: 15px;
+.logo {
+    height: 80px;
 }
 
-.logo h1 {
-    font-size: 1.8rem;
-    color: #333;
+.company-info h1 {
+    margin: 0 10px;
+    font-size: 28px;
 }
 
-.logo span {
-    font-size: 1rem;
-    color: #666;
+.slogan {
+    margin: 0;
+    font-size: 14px;
+    color: #444;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
-    margin-left: 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    color: black;
+    font-size: 16px;
 }
+
+main {
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.team-portfolio {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.team-section, .portfolio-section {
+    flex: 1;
+}
+
+.team-section h3, .portfolio-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.team-photo img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.team-photo p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #2D9CDB;
+}
+
+.portfolio-images img {
+    width: 200px;

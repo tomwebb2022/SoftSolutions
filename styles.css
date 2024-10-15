@@ -76,6 +76,9 @@ h2 {
 .team-section,
 .portfolio-section {
   flex: 1;
+  text-align: center;
+  margin-top: 2rem;
+
 }
 
 .team-section h3,
@@ -97,6 +100,10 @@ h2 {
 
 .portfolio-images img {
   width: 200px;
+  max-width: 30%; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-section {
@@ -190,3 +197,4 @@ h2 {
   width: 100%; 
   border-radius: 10px;
 }
+
